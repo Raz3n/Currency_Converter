@@ -18,7 +18,6 @@
 
        <label for="choose_currency">Select a Currency</label>
          <select id="choose_currency" v-model="exchangeRate">
-           <option disabled value="">Select a currency:</option>
            <option v-for="(rate, currency) in rates" :value=rate>{{currency}}</option>
          </select>
 
