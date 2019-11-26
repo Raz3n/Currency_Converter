@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     computed: {
     change: function() {
       return this.changedAmount =  this.money * this.exchangeRate;
-      return this.changedAmount;
     }
   },
     methods: {
